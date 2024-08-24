@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="image/bolt-logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>explore Bolt.eu</title>
+</head>
+<body>
+    <header>
+        <section id="navbar">
+            <section class="wrapper">
+                <div class="header">
+                    <div class="nav-left">
+                        <h1 class="logo">
+                            <a href="#"><img src="image/navbarlogo.svg" alt="logo"></a>
+                        </h1>
+                    </div>
+                    <div class="nav-right">
+                        <div class="nav-logo">
+                            <a href="#"><img class="hideOnMobile" src="image/global.bar.svg" alt="logo"/></a>
+                            <a href="#"><span class="hideOnMobile">EN</span></a>
+                            <a href="#"><img class="hideOnMobile" src="image/image.logo.svg" alt="logo"/></a>
+                        </div>
+                        <div class="right-bar">
+                            <a href="#"><h4 class="hideOnMobile">Support</h4></a>
+                        </div>
+                        <div class="navbar-button">
+                            <button class="hideOnMobile">Sign up</button>
+                        </div>
+                        <div class="nav-menu">
+                            <a href="#"><i onclick=showhovermenu() class="fa-solid fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hovermenu">
+                    <div class="hov-left">
+                        <h1 class="logoh">
+                            <a href="#"><img src="image/svgexport-3.svg" alt="logo" onclick=closehovermenu()></a>
+                        </h1>
+                    </div>
+                    <div class="hov-right">
+                        <div class="hov-logo">
+                            <a href="#"><span>LANGUAGE</span></a>
+                        </div>
+                        <div class="hovbar-button">
+                            <button>Sign up</button>
+                        </div>
+                        <div class="hov-product">
+                            <a href="#"><p>PRODUCTS</p></a>
+                        </div>
+                        <div class="hov-cities">
+                            <a href="#"><p>CITIES</p></a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function showhovermenu(){
+                        const hovermenu = document.querySelector('.hovermenu')
+                        hovermenu .style.display = 'flex'
+                    }
+                    function closehovermenu(){
+                        const hovermenu = document.querySelector('.hovermenu')
+                        hovermenu .style.display = 'none'
+                    }
+                </script>
+            </section>
+        </section>
+    </header>
+    <!---spotlight-->
+    <section id="spot-light">
+        <div class="spot-background">
+            <section class="wrapper">
+                <div class="spot-headding">
+                    <h2>Go wherever, whenever</h2>
+                </div>
+                <div class="spot-paragraph">
+                    <p>Bolt is the all-in-one mobility app. Get picked up by a
+                    top-rated driver in minutes and enjoy a comfortable ride
+                    to wherever you're going; or skip the traffic entirely on
+                    one of our industry-leading scooters.
+                    </p>
+                </div>
+                <div class="spot-button">
+                    <button>Get the app</button>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="spot-second">
+       <section class="wrapper">
+          <div class="second-head">
+              <div class="sub-head">
+                  <h3>Earn money with Bolt</h3>
+              </div>
+              <div class="sub-button">
+                  <button >Driver</button>
+                  <button>Courier</button>
+                  <button>Restaurant or store owner</button>
+                  <button>Fleet owner</button>
+             </div>
+         </div>
+          <div class="earn-money">
+              <div class="car-img">
+                 <img src="image/bolt-car.webp" alt="image"/>
+              </div>
+              <div class="drive-earn">
+                        <h4 class="drive-sub">
+                            Drive and earn money
+                        </h4>
+                        <div class="drive-feature">
+                            <div class="drive-order">
+                                <div class="num-1">
+                                    <p>1</p>
+                                </div>
+                                <div class="drive-head">
+                                    <h5>Drive more, earn more</h5> 
+                                </div>
+                            </div>
+                            <div class="car-steps">
+                                <p>Our 150+ million riders will send you plenty of ride 
+                                    requests. When demand is high, you can earn even more.</p>
+                            </div>    
+                        </div>
+                        <div class="drive-feature">
+                            <div class="drive-order">
+                                <div class="num-1">
+                                    <p>2</p>
+                                </div>
+                                <div class="drive-head">
+                                    <h5>Set your schedule</h5> 
+                                </div>
+                            </div>
+                            <div class="car-steps">
+                                <p>Drive for as long and as often as you like. Weekdays;
+                                     weekends; evenings — fit driving around your lifestyle.</p>
+                            </div>    
+                        </div>
+                        <div class="drive-feature">
+                            <div class="drive-order">
+                                <div class="num-1">
+                                    <p>3</p>
+                                </div>
+                                <div class="drive-head">
+                                    <h5>Get paid each week</h5> 
+                                </div>
+                            </div>
+                            <div class="car-steps">
+                                <p>You'll receive your earnings at the end of each week —
+                                     no need to wait around for payday.</p>
+                            </div>    
+                        </div>
+                        <div class="learn-more">
+                            <button>Learn more</button>
+                        </div>
+              </div>
+         </div>        
+       </section>
+    </section>
+    <section id="spot-third">
+        <section class="wrapper">
+            <div class="third-head">
+                <h6>
+                    Our services
+                </h6>
+                <span class="sub-third">
+                    Products and features vary by country. Some features
+                     listed here may not be available in your app.
+                </span>
+            </div>
+            <div class="third-features">
+                <div class="features-first">
+                    <div class="card-features">
+                        <h5>Rides</h5>
+                        <p class="sub-features">Request in seconds, ride in minutes.</p>
+                        <img src="image/rides.png" alt="image">
+                    </div>
+                </div>
+                <div class="features-first">
+                    <div class="card-features">
+                        <h5>Delivery</h5>
+                        <p class="sub-features">Your favourite food, delivered fast.</p>
+                        <img src="image/delivery.png" alt="image">
+                    </div>
+                </div>
+                <div class="features-first">
+                    <div class="card-features">
+                        <h5>Groceries</h5>
+                        <p class="sub-features">All the essentials whenever you need them.</p>
+                        <img src="image/food.png" alt="image">
+                    </div>
+                </div>
+            </div>
+            <div class="third-features">
+                <div class="features-first">
+                    <div class="card-features">
+                        <h5>Car-sharing</h5>
+                        <p class="sub-features">High-quality car rental made easy.</p>
+                        <img src="image/car-sharing.png" alt="image">
+                    </div>
+                </div>
+                <div class="features-first">
+                    <div class="card-features">
+                        <h5>Micromobility</h5>
+                        <p class="sub-features">2-wheel ride rental at your fingertips.</p>
+                        <img src="image/micromobility.png" alt="image">
+                    </div>
+                </div>
+                <div class="features-first">
+                    <div class="card-features">
+                        <h5>Business</h5>
+                        <p class="sub-features">Manage business travel for your team and clients.</p>
+                        <img src="image/business.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="making-cities">
+        <div class="wrapper">
+            <div class="features-city">
+                <div class="realtime-data">
+                    <div class="cities-data">
+                        <h6>Making cities for people, not cars</h6>
+                    </div>
+                    <div class="sub-data">
+                        <span>By sharing our knowledge of the industry and
+                             real-time data we're helping to improve our cities.
+                        </span>
+                    </div>
+                    <div class="cities-features">
+                        <div class="cities-order">
+                            <div class="no-1">
+                                <p>1</p>
+                            </div>
+                            <div class="cities-head">
+                                <h5>Sharing best practices</h5> 
+                            </div>
+                        </div>
+                        <div class="cities-steps">
+                            <p>We're able to provide insights that help local authorities 
+                                make their cities more connected and liveable.</p>
+                        </div>    
+                    </div>
+                    <div class="cities-features">
+                        <div class="cities-order">
+                            <div class="no-1">
+                                <p>2</p>
+                            </div>
+                            <div class="cities-head">
+                                <h5>One app, many ways to move</h5> 
+                            </div>
+                        </div>
+                        <div class="cities-steps">
+                            <p>With multiple transport services inside a single app,
+                                 getting around safely, in a more sustainable way, has never been easier.</p>
+                        </div>    
+                    </div>
+                    <div class="cities-features">
+                        <div class="cities-order">
+                            <div class="no-1">
+                                <p>3</p>
+                            </div>
+                            <div class="cities-head">
+                                <h5>Less is more</h5> 
+                            </div>
+                        </div>
+                        <div class="cities-steps">
+                            <p>Shared transport can transform our cities by lowering
+                                 emissions, reducing congestion, and the demand for parking spaces.</p>
+                        </div>    
+                    </div>
+                    <div class="learn-more1">
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="features-cityimg">
+                    <img src="image/feature-cities-for-people.webp" alt="image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="wrapper">
+            <div class="about-us">
+                <div class="about-img">
+                    <div class="building-img">
+                       <img src="image/feature-bolt-building.webp" alt="image"/>
+                    </div>
+                    <div class="about-bolt">
+                        <h4 class="about-heading">
+                            About us
+                         </h4>
+                         <div class="about-data">
+                           <span>
+                             Bolt is the first European mobility super-app.
+                             We're making cities for people, offering better
+                             alternatives for every purpose a private car
+                              serves — including ride-hailing, shared cars,
+                              scooters, and food and grocery delivery.
+                           </span>
+                         </div> 
+                         <div class="about-features">
+                            <div class="about-order">
+                                <div class="number-1">
+                                    <p>1</p>
+                                </div>
+                                <div class="about-users">
+                                    <h5>
+                                        150+ million
+                                    </h5> 
+                                </div>
+                            </div>
+                            <div class="about-consumers">
+                                <p>
+                                    customers around the world.
+                                </p>
+                            </div>    
+                        </div>
+                        <div class="about-features">
+                            <div class="about-order">
+                                <div class="number-1">
+                                    <p>2</p>
+                                </div>
+                                <div class="about-users">
+                                    <h5>
+                                        5 continents
+                                    </h5> 
+                                </div>
+                            </div>
+                            <div class="about-consumers">
+                                <p>
+                                    45+ countries.
+                                </p>
+                            </div>    
+                        </div>
+                        <div class="about-features">
+                            <div class="about-order">
+                                <div class="number-1">
+                                    <p>3</p>
+                                </div>
+                                <div class="about-users">
+                                    <h5>
+                                        3.1+ million
+                                    </h5> 
+                                </div>
+                            </div>
+                            <div class="about-consumers">
+                                <p>
+                                    drivers and couriers.
+                                </p>
+                            </div>    
+                        </div>                              
+                         </div>                             
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section id="download">
+        <div class="wrapper">
+            <div class="download-section">
+                <h4>Download our apps</h4>
+            </div>
+            <div class="download-button">
+                <div class="rides-button">
+                    <button>Rides</button>
+                </div>
+                <div class="delivery-button">
+                    <button>Delivery</button>
+                </div>
+            </div>
+            <div class="download-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <h6>Request in seconds, ride in minutes.</h6>
+                        <p>Available for iOS and Android devices.</p>
+                        <button class="card-button">Get the app</button>
+                    </div>
+                    <div class="card-images">
+                        <img src="image/desktop.webp" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>    
+        </div>
+    </section>
+    <section id="news-updates">
+        <div class="wrapper">
+            <div class="updates-head">
+                <h5 class="news-heading">News and updates</h5>
+                <button class="b-viewall">view all</button>
+            </div>
+            <div class="updates-text">
+                <div class="business-bolt">
+                    <img src="image/bolt-business-growth-2023-768x402.jpg" alt="image">
+                    <div class="news-data">
+                        <p>Bolt secures $220 revolving credit facility, car boo</p>
+                    </div>
+                    <div class="min-read">
+                        <h6>4 min read <b>.</b> 5/3/2024</h6>
+                    </div>
+                </div>
+                <div class="empowering">
+                    <img src=
+                    "image/Empowering-diverse-voices-Bringing-DI-to-life-at-Bolt-1024x536.jpg" 
+                    alt="image">
+                    <div class="news-data">
+                        <p>Empowering diverse voices: Bringing D&l to life at Bolt</p>
+                    </div>
+                    <div class="min-read">
+                        <h6>4 min read <b>.</b> 5/3/2024</h6>
+                    </div>
+                </div>
+                <div class="bolt-market">
+                    <img src="image/Bolt-Market-save-me-category-768x402.jpg" alt="image">
+                    <div class="news-data">
+                        <p>Bolt Market users prevented 80 tonnes of food waste in 2023</p>
+                    </div>
+                    <div class="min-read">
+                        <h6>4 min read <b>.</b> 5/3/2024</h6>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-top">
+                <div>
+                    <img src="image/bolt-logo.webp" alt="logo"/>
+                    <div class="top-global">
+                        <img src="image/svgexport-5.svg" alt="logo"/>
+                        <p>EN</p>
+                        <img src="image/svgexport-24.svg" alt="logo"/>
+                    </div>
+                </div>
+                <div class="list1">
+                    <h4>Bolt</h4>
+                    <li><a href="#">Rides</a></li>
+                    <li><a href="#">Food delivery</a></li>
+                    <li><a href="#">Grocery delivery</a></li>
+                    <li><a href="#">Scooters</a></li>
+                    <li><a href="#">Car-sharing</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Airports</a></li>
+                    <li><a href="#">Cities</a></li>
+                </div>
+                <div class="listed">
+                    <h4>Partner with Bolt</h4>
+                    <li><a href="#">Sign up as a driver</a></li>
+                    <li><a href="#">Sign up as a courier</a></li>
+                    <li><a href="#">Fleet</a></li>
+                    <li><a href="#">Franchise</a></li>
+                </div>
+                <div class="listed">
+                    <h4>Company</h4>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Green Plan</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Brand guideline</a></li>
+                </div>  
+            </div>
+            <div class="footer-mid">
+                <div class="footer-logo">
+                    <div class="image-footer">
+                        <img src="image/svgexport-25.svg" alt="logo"/>
+                    </div>
+                    <div class="image-footer">
+                        <img src="image/svgexport-26.svg" alt="logo"/>
+                    </div>
+                    <div class="image-footer">
+                        <img src="image/svgexport-27.svg" alt="logo"/>
+                    </div>
+                    <div class="image-footer">
+                        <img src="image/svgexport-28.svg" alt="logo"/>
+                    </div>
+                    <div class="image-footer">
+                        <img src="image/svgexport-29.svg" alt="logo"/>
+                    </div>
+                </div>
+                <div class="footer-button">
+                    <button>Get the bolt app</button>
+                    <button>Get the bolt Food app</button>
+                    <button>Request a ride online</button> 
+                </div>
+            </div>
+            <div class="bottom-line">
+                <hr/>
+            </div>
+            <div class="footer-bottom">
+                <div class="bottom-text">
+                    <p>© 2024 Bolt Technology OÜ</p>
+                </div>
+                <div class="bottom">
+                    <p>Suppliers</p>
+                    <p>Terms & Conditions</p> 
+                    <p>Privacy</p> 
+                    <p>Cookies</p>
+                </div>
+                <div class="security">
+                    <p>Security</p>
+                </div>
+            </div>
+                 
+        </div>
+    </footer>
+</body>
+</html>
+  
+
+
+
+ 
